@@ -1,0 +1,143 @@
+/*CSS RESET*/
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0px 14px;
+    font-size: 15px;
+}
+#logo img{
+    height:50px;
+    filter:invert(1);
+
+}
+/*Navigation*/
+#navbar{
+    background-color:rgb(219, 83, 83);
+    padding: 13px 17px;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+   /* justify-content: center;*/
+}
+
+#navbar li{
+    font-size:1.6rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin:2px;
+    padding-top: 8px;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding :13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    color:black;
+}
+#intro{
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background:center /cover no-repeat url("https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    height:425px;
+   /* background-image:url("bg.jpg")center /contain no-repeat;*/
+
+}
+#mission{
+    height: 300px;
+    width:95%;
+    margin: auto;
+}
+#mission h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    margin:0px 17px;
+    padding-top: 12px;
+}
+#mission h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    margin:0px 17px;
+    padding-top: 12px;
+
+}
+
+#mission .card{
+    display:inline-block;
+    border:2px solid black;
+    border-radius:9px;
+    width:30%;
+    height:220px;
+    margin:23px 20px;
+    
+}
+.card h3{
+    font-size: 23px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    margin:13px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height:120px;
+    padding:12px 14px;
+
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding:0px 24px;
+}
+.card-content p{
+    font-size: 20px;
+}
+#sponsor{
+    height:300px;
+    width:100%;
+    background-color:rgb(250, 240, 240);
+
+}
+#sponsor .small{
+    font-size: 32px;
+    text-align: center;
+}
+.pic{
+    height:240px;
+    width:300%;
+    margin:35px;
+    padding: 35px 55px;
+}
+
+.spimg{
+    height: 100%;
+    margin: 10px 110px;
+    padding-bottom: 60px;
+}
+
+#fog{
+    height:20px;
+    background-color:black;
+    color: white;
+    text-align: center;
+
+}
+
